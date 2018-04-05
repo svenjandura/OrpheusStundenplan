@@ -1,0 +1,9 @@
+-Option, um Experimente aufzufüllen
+-Dateiorte in config speichern
+-Schüler für spezielle Veranstaltungen fest einteilen
+-Voraussetzungen ermöglichen
+-Namensschilder generierern
+-Globalplan ohne Lokalplan texen
+-Tex Schönheitskorrekturen
+-Lokalplan nach Namen sortieren
+-Website updated
