@@ -8,6 +8,7 @@ data Config = Config
    ,cExperimenteFuellen :: Bool
    ,cNutzeZwangszuweisungen :: Bool
    ,cNutzeVoraussetzungen :: Bool
+   ,cVermeideFreieEinheiten :: Bool
    ,cWebsiteDaten :: String
    ,cGlobalplanXml :: String
    ,cInfo :: String
@@ -26,6 +27,7 @@ readConfig = do
   experimenteFuellen <- readBooleanFromConfig "Experimente_fuellen"
   nutzeZwangszuweisungen <- readBooleanFromConfig "Nutze_Zwangszuweisungen"
   nutzeVoraussetzugen <- readBooleanFromConfig "Nutze_Voraussetzungen"
+  vermeideFreieEinheiten <- readBooleanFromConfig "Vermeide_Freie_Einheiten"
   websiteDaten <- readStringFromConfig "Website_Daten"
   globalplanXml <- readStringFromConfig "Globalplan_Xml"
   info <- readStringFromConfig "Info"
@@ -40,6 +42,7 @@ readConfig = do
                   , cExperimenteFuellen = experimenteFuellen
                   , cNutzeZwangszuweisungen = nutzeZwangszuweisungen
                   , cNutzeVoraussetzungen = nutzeVoraussetzugen
+                  , cVermeideFreieEinheiten = vermeideFreieEinheiten
                   , cWebsiteDaten = websiteDaten
                   , cGlobalplanXml = globalplanXml
                   , cInfo = info

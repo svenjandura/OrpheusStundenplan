@@ -28,10 +28,13 @@ setzeVariablentypen globalplan config = sequence_ $ do
   planeinheit <- gEinheiten globalplan
   return $ setVarKind (var teilnehmer planeinheit) BinVar
 
+freieEinheitenSummand :: Config -> Double
+freieEinheitenSummand config = if cVermeideFreieEinheiten config then 1 else 0
+
 optimum :: LPSeminarFunk
 optimum globalplan config = do
   setDirection Max
-  setObjective $ linCombination [ ( wahl teilnehmer planeinheit
+  setObjective $ linCombination [ ( (wahl teilnehmer planeinheit)+(freieEinheitenSummand config)
                                   , var teilnehmer planeinheit)
                                   | teilnehmer <- steilnehmer $ gSeminar globalplan
                                   ,  planeinheit <- gEinheiten globalplan

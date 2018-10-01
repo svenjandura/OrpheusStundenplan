@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.18)  29 MAR 2018 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.9)  1 OCT 2018 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Lokalplan.tex
 (./Lokalplan.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 36 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 40 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -28,31 +28,34 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-german/german.ldf
-Language: german 2014/10/10 v2.7b German support for babel (traditional orthogr
-aphy)
+Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
+phy)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
-Language: germanb 2014/10/10 v2.7b German support for babel (traditional orthog
-raphy)
+Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
+aphy)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count88
 )
-\l@austrian = a dialect from \language\l@german 
-Package babel Info: Making " an active character on input line 110.
+Package babel Info: Making " an active character on input line 139.
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
-\l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -60,14 +63,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -279,11 +282,17 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -295,12 +304,14 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -341,7 +352,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -365,33 +376,25 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -411,7 +414,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1.
 LaTeX Font Info:    ... okay on input line 1.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1.
 LaTeX Font Info:    ... okay on input line 1.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
 \scratchdimen=\dimen106
@@ -424,49 +428,57 @@ LaTeX Font Info:    ... okay on input line 1.
 \MPnumerator=\count93
 \makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks18
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -511,8 +523,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--5
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 <campus_map.pdf, id=9, 845.1575pt x 597.23125pt>
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 10.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 10.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [2 <./campus_map.pdf>]
 Underfull \hbox (badness 2310) in paragraph at lines 12--12
@@ -546,8 +558,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--16
 
 [3]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 21.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 21.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [4]
 Underfull \hbox (badness 2310) in paragraph at lines 23--23
@@ -591,8 +603,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
 [5]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 32.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 32.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [6]
 Underfull \hbox (badness 2310) in paragraph at lines 34--34
@@ -631,8 +643,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
 [7]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 43.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 43.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [8]
 Underfull \hbox (badness 2310) in paragraph at lines 45--45
@@ -666,8 +678,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
 [9]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 54.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 54.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [10]
 Underfull \hbox (badness 2310) in paragraph at lines 56--56
@@ -701,8 +713,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--60
 
 [11]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 65.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 65.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [12]
 Underfull \hbox (badness 2310) in paragraph at lines 67--67
@@ -741,8 +753,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
 [13]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 76.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 76.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [14]
 Underfull \hbox (badness 2310) in paragraph at lines 78--78
@@ -781,8 +793,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--82
 
 [15]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 87.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 87.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [16]
 Underfull \hbox (badness 2310) in paragraph at lines 89--89
@@ -821,8 +833,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
 [17]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 98.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 98.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [18]
 Underfull \hbox (badness 2310) in paragraph at lines 100--100
@@ -861,8 +873,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--104
 
 [19]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 109.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 109.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [20]
 Underfull \hbox (badness 2310) in paragraph at lines 111--111
@@ -896,12 +908,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
 [21]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 120.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 120.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [22]
 Underfull \hbox (badness 2310) in paragraph at lines 122--122
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 122--122
+[]\OT1/cmr/bx/n/10 Aufgabenseminar Quanten- und
  []
 
 
@@ -931,8 +948,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
 [23]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 131.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 131.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [24]
 Underfull \hbox (badness 2310) in paragraph at lines 133--133
@@ -971,8 +988,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--137
 
 [25]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 142.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 142.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [26]
 Underfull \hbox (badness 2310) in paragraph at lines 144--144
@@ -1006,8 +1023,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
 [27]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 153.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 153.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [28]
 Underfull \hbox (badness 2310) in paragraph at lines 155--155
@@ -1051,8 +1068,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--159
 
 [29]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 164.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 164.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [30]
 Underfull \hbox (badness 2310) in paragraph at lines 166--166
@@ -1086,8 +1103,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--170
 
 [31]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 175.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 175.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [32]
 Underfull \hbox (badness 2310) in paragraph at lines 177--177
@@ -1126,8 +1143,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
 [33]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 186.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 186.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [34]
 Underfull \hbox (badness 2310) in paragraph at lines 188--188
@@ -1166,8 +1183,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
 [35]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 197.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 197.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [36]
 Underfull \hbox (badness 2310) in paragraph at lines 199--199
@@ -1206,8 +1223,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
 [37]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 208.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 208.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [38]
 Underfull \hbox (badness 2310) in paragraph at lines 210--210
@@ -1241,8 +1258,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--214
 
 [39]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 219.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 219.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [40]
 Underfull \hbox (badness 2310) in paragraph at lines 221--221
@@ -1276,17 +1293,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--225
 
 [41]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 230.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 230.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [42]
 Underfull \hbox (badness 2310) in paragraph at lines 232--232
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 232--232
-[]\OT1/cmr/bx/n/10 Experiment spe-zi-fi-sche Elek-tro-
  []
 
 
@@ -1316,8 +1328,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--236
 
 [43]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 241.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 241.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [44]
 Underfull \hbox (badness 2310) in paragraph at lines 243--243
@@ -1356,8 +1368,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
 [45]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 252.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 252.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [46]
 Underfull \hbox (badness 2310) in paragraph at lines 254--254
@@ -1391,8 +1403,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--258
 
 [47]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 263.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 263.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [48]
 Underfull \hbox (badness 2310) in paragraph at lines 265--265
@@ -1426,8 +1438,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
 [49]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 274.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 274.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [50]
 Underfull \hbox (badness 2310) in paragraph at lines 276--276
@@ -1461,8 +1473,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--280
 
 [51]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 285.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 285.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [52]
 Underfull \hbox (badness 2310) in paragraph at lines 287--287
@@ -1506,8 +1518,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--291
 
 [53]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 296.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 296.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [54]
 Underfull \hbox (badness 2310) in paragraph at lines 298--298
@@ -1546,8 +1558,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--302
 
 [55]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 307.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 307.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [56]
 Underfull \hbox (badness 2310) in paragraph at lines 309--309
@@ -1591,12 +1603,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
 [57]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 318.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 318.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [58]
 Underfull \hbox (badness 2310) in paragraph at lines 320--320
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 320--320
+[]\OT1/cmr/bx/n/10 Experiment spe-zi-fi-sche Elek-tro-
  []
 
 
@@ -1626,8 +1643,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--324
 
 [59]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 329.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 329.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [60]
 Underfull \hbox (badness 2310) in paragraph at lines 331--331
@@ -1661,8 +1678,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--335
 
 [61]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 340.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 340.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [62]
 Underfull \hbox (badness 2310) in paragraph at lines 342--342
@@ -1701,8 +1718,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--346
 
 [63]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 351.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 351.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [64]
 Underfull \hbox (badness 2310) in paragraph at lines 353--353
@@ -1736,8 +1753,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
 [65]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 362.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 362.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [66]
 Underfull \hbox (badness 2310) in paragraph at lines 364--364
@@ -1771,8 +1788,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 364--368
 
 [67]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 373.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 373.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [68]
 Underfull \hbox (badness 2310) in paragraph at lines 375--375
@@ -1811,8 +1828,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--379
 
 [69]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 384.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 384.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [70]
 Underfull \hbox (badness 2310) in paragraph at lines 386--386
@@ -1851,17 +1868,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 386--390
 
 [71]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 395.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 395.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [72]
 Underfull \hbox (badness 2310) in paragraph at lines 397--397
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 397--397
-[]\OT1/cmr/bx/n/10 Experiment spe-zi-fi-sche Elek-tro-
  []
 
 
@@ -1891,8 +1903,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--401
 
 [73]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 406.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 406.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [74]
 Underfull \hbox (badness 2310) in paragraph at lines 408--408
@@ -1926,8 +1938,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--412
 
 [75]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 417.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 417.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [76]
 Underfull \hbox (badness 2310) in paragraph at lines 419--419
@@ -1966,8 +1978,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--423
 
 [77]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 428.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 428.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [78]
 Underfull \hbox (badness 2310) in paragraph at lines 430--430
@@ -2006,8 +2018,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--434
 
 [79]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 439.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 439.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [80]
 Underfull \hbox (badness 2310) in paragraph at lines 441--441
@@ -2041,8 +2053,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--445
 
 [81]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 450.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 450.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [82]
 Underfull \hbox (badness 2310) in paragraph at lines 452--452
@@ -2076,8 +2088,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--456
 
 [83]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 461.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 461.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [84]
 Underfull \hbox (badness 2310) in paragraph at lines 463--463
@@ -2111,12 +2123,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 463--467
 
 [85]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 472.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 472.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [86]
 Underfull \hbox (badness 2310) in paragraph at lines 474--474
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 474--474
+[]\OT1/cmr/bx/n/10 Experiment spe-zi-fi-sche Elek-tro-
  []
 
 
@@ -2151,8 +2168,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--478
 
 [87]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 483.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 483.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [88]
 Underfull \hbox (badness 2310) in paragraph at lines 485--485
@@ -2191,8 +2208,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--489
 
 [89]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 494.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 494.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [90]
 Underfull \hbox (badness 2310) in paragraph at lines 496--496
@@ -2231,8 +2248,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 496--500
 
 [91]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 505.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 505.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [92]
 Underfull \hbox (badness 2310) in paragraph at lines 507--507
@@ -2266,8 +2283,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 507--511
 
 [93]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 516.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 516.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [94]
 Underfull \hbox (badness 2310) in paragraph at lines 518--518
@@ -2301,8 +2318,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
 [95]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 527.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 527.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [96]
 Underfull \hbox (badness 2310) in paragraph at lines 529--529
@@ -2341,8 +2358,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--533
 
 [97]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 538.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 538.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [98]
 Underfull \hbox (badness 2310) in paragraph at lines 540--540
@@ -2352,6 +2369,11 @@ Underfull \hbox (badness 2310) in paragraph at lines 540--540
 
 Underfull \hbox (badness 10000) in paragraph at lines 540--540
 []\OT1/cmr/bx/n/10 Aufgabenseminar Elek-tro-dy-na-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 540--540
+[]\OT1/cmr/bx/n/10 Aufgabenseminar Quanten- und
  []
 
 
@@ -2381,8 +2403,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 540--544
 
 [99]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 549.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 549.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [100]
 Underfull \hbox (badness 2310) in paragraph at lines 551--551
@@ -2416,8 +2438,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 551--555
 
 [101]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 560.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 560.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [102]
 Underfull \hbox (badness 2310) in paragraph at lines 562--562
@@ -2451,8 +2473,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--566
 
 [103]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 571.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 571.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [104]
 Underfull \hbox (badness 2310) in paragraph at lines 573--573
@@ -2491,8 +2513,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 573--577
 
 [105]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 582.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 582.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [106]
 Underfull \hbox (badness 2310) in paragraph at lines 584--584
@@ -2526,8 +2548,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 584--588
 
 [107]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 593.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 593.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [108]
 Underfull \hbox (badness 2310) in paragraph at lines 595--595
@@ -2561,8 +2583,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--599
 
 [109]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 604.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 604.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [110]
 Underfull \hbox (badness 2310) in paragraph at lines 606--606
@@ -2596,8 +2618,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--610
 
 [111]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 615.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 615.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [112]
 Underfull \hbox (badness 2310) in paragraph at lines 617--617
@@ -2636,8 +2658,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 617--621
 
 [113]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 626.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 626.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [114]
 Underfull \hbox (badness 2310) in paragraph at lines 628--628
@@ -2671,8 +2693,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 628--632
 
 [115]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 637.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 637.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [116]
 Underfull \hbox (badness 2310) in paragraph at lines 639--639
@@ -2711,8 +2733,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 639--643
 
 [117]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 648.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 648.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [118]
 Underfull \hbox (badness 2310) in paragraph at lines 650--650
@@ -2746,8 +2768,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 650--654
 
 [119]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 659.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 659.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [120]
 Underfull \hbox (badness 2310) in paragraph at lines 661--661
@@ -2781,8 +2803,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--665
 
 [121]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 670.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 670.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [122]
 Underfull \hbox (badness 2310) in paragraph at lines 672--672
@@ -2816,8 +2838,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 672--676
 
 [123]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 681.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 681.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [124]
 Underfull \hbox (badness 2310) in paragraph at lines 683--683
@@ -2856,8 +2878,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 683--687
 
 [125]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 692.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 692.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [126]
 Underfull \hbox (badness 2310) in paragraph at lines 694--694
@@ -2867,11 +2889,6 @@ Underfull \hbox (badness 2310) in paragraph at lines 694--694
 
 Underfull \hbox (badness 10000) in paragraph at lines 694--694
 []\OT1/cmr/bx/n/10 Aufgabenseminar Elek-tro-dy-na-
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 694--694
-[]\OT1/cmr/bx/n/10 Aufgabenseminar Quanten- und
  []
 
 
@@ -2901,8 +2918,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--698
 
 [127]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 703.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 703.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [128]
 Underfull \hbox (badness 2310) in paragraph at lines 705--705
@@ -2936,8 +2953,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--709
 
 [129]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 714.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 714.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [130]
 Underfull \hbox (badness 2310) in paragraph at lines 716--716
@@ -2981,8 +2998,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--720
 
 [131]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 725.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 725.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [132]
 Underfull \hbox (badness 2310) in paragraph at lines 727--727
@@ -3016,8 +3033,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 727--731
 
 [133]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 736.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 736.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [134]
 Underfull \hbox (badness 2310) in paragraph at lines 738--738
@@ -3051,8 +3068,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 738--742
 
 [135]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 747.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 747.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [136]
 Underfull \hbox (badness 2310) in paragraph at lines 749--749
@@ -3086,8 +3103,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 749--753
 
 [137]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 758.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 758.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [138]
 Underfull \hbox (badness 2310) in paragraph at lines 760--760
@@ -3131,8 +3148,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 760--764
 
 [139]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 769.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 769.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [140]
 Underfull \hbox (badness 2310) in paragraph at lines 771--771
@@ -3171,8 +3188,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--775
 
 [141]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 780.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 780.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [142]
 Underfull \hbox (badness 2310) in paragraph at lines 782--782
@@ -3206,8 +3223,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 782--786
 
 [143]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 791.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 791.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [144]
 Underfull \hbox (badness 2310) in paragraph at lines 793--793
@@ -3241,8 +3258,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 793--797
 
 [145]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 802.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 802.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [146]
 Underfull \hbox (badness 2310) in paragraph at lines 804--804
@@ -3276,8 +3293,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 804--808
 
 [147]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 813.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 813.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [148]
 Underfull \hbox (badness 2310) in paragraph at lines 815--815
@@ -3311,8 +3328,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 815--819
 
 [149]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 824.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 824.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [150]
 Underfull \hbox (badness 2310) in paragraph at lines 826--826
@@ -3346,8 +3363,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 826--830
 
 [151]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 835.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 835.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [152]
 Underfull \hbox (badness 2310) in paragraph at lines 837--837
@@ -3386,8 +3403,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--841
 
 [153]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 846.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 846.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [154]
 Underfull \hbox (badness 2310) in paragraph at lines 848--848
@@ -3421,8 +3438,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 848--852
 
 [155]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 857.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 857.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [156]
 Underfull \hbox (badness 2310) in paragraph at lines 859--859
@@ -3461,8 +3478,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 859--863
 
 [157]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 868.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 868.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [158]
 Underfull \hbox (badness 2310) in paragraph at lines 870--870
@@ -3496,8 +3513,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 870--874
 
 [159]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 879.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 879.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [160]
 Underfull \hbox (badness 2310) in paragraph at lines 881--881
@@ -3536,8 +3553,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 881--885
 
 [161]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 890.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 890.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [162]
 Underfull \hbox (badness 2310) in paragraph at lines 892--892
@@ -3571,8 +3588,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 892--896
 
 [163]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 901.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 901.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [164]
 Underfull \hbox (badness 2310) in paragraph at lines 903--903
@@ -3616,8 +3633,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--907
 
 [165]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 912.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 912.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [166]
 Underfull \hbox (badness 2310) in paragraph at lines 914--914
@@ -3656,8 +3673,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 914--918
 
 [167]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 923.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 923.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [168]
 Underfull \hbox (badness 2310) in paragraph at lines 925--925
@@ -3691,8 +3708,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 925--929
 
 [169]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 934.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 934.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [170]
 Underfull \hbox (badness 2310) in paragraph at lines 936--936
@@ -3726,8 +3743,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 936--940
 
 [171]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 945.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 945.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [172]
 Underfull \hbox (badness 2310) in paragraph at lines 947--947
@@ -3761,8 +3778,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 947--951
 
 [173]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 956.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 956.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [174]
 Underfull \hbox (badness 2310) in paragraph at lines 958--958
@@ -3796,8 +3813,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 958--962
 
 [175]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 967.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 967.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [176]
 Underfull \hbox (badness 2310) in paragraph at lines 969--969
@@ -3831,8 +3848,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 969--973
 
 [177]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 978.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 978.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [178]
 Underfull \hbox (badness 2310) in paragraph at lines 980--980
@@ -3866,8 +3883,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 980--984
 
 [179]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 989.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 989.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [180]
 Underfull \hbox (badness 2310) in paragraph at lines 991--991
@@ -3911,8 +3928,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 991--995
 
 [181]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1000.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1000.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [182]
 Underfull \hbox (badness 2310) in paragraph at lines 1002--1002
@@ -3946,8 +3963,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1002--1006
 
 [183]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1011.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1011.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [184]
 Underfull \hbox (badness 2310) in paragraph at lines 1013--1013
@@ -3981,8 +3998,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1013--1017
 
 [185]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1022.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1022.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [186]
 Underfull \hbox (badness 2310) in paragraph at lines 1024--1024
@@ -4016,8 +4033,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1024--1028
 
 [187]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1033.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1033.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [188]
 Underfull \hbox (badness 2310) in paragraph at lines 1035--1035
@@ -4051,8 +4068,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1035--1039
 
 [189]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1044.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1044.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [190]
 Underfull \hbox (badness 2310) in paragraph at lines 1046--1046
@@ -4086,8 +4103,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1046--1050
 
 [191]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1055.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1055.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [192]
 Underfull \hbox (badness 2310) in paragraph at lines 1057--1057
@@ -4121,8 +4138,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1057--1061
 
 [193]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1066.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1066.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [194]
 Underfull \hbox (badness 2310) in paragraph at lines 1068--1068
@@ -4156,8 +4173,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1072
 
 [195]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1077.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1077.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [196]
 Underfull \hbox (badness 2310) in paragraph at lines 1079--1079
@@ -4201,8 +4218,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1079--1083
 
 [197]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1088.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1088.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [198]
 Underfull \hbox (badness 2310) in paragraph at lines 1090--1090
@@ -4236,8 +4253,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1090--1094
 
 [199]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1099.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [200]
 Underfull \hbox (badness 2310) in paragraph at lines 1101--1101
@@ -4271,8 +4288,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1101--1105
 
 [201]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1110.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1110.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [202]
 Underfull \hbox (badness 2310) in paragraph at lines 1112--1112
@@ -4306,8 +4323,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1112--1116
 
 [203]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1121.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1121.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [204]
 Underfull \hbox (badness 2310) in paragraph at lines 1123--1123
@@ -4341,9 +4358,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1123--1127
 
 File: campus_map.pdf Graphic file (type pdf)
 <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1132.
+Package pdftex.def Info: campus_map.pdf  used on input line 1132.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
- [205] [206]
+[205] [206]
 Underfull \hbox (badness 2310) in paragraph at lines 1134--1134
 \OT1/cmr/m/n/10 Aus-ga-be der in-di-vi-du-el-len Stun-den-
  []
@@ -4380,24 +4397,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1134--1138
 
 [207]
 File: campus_map.pdf Graphic file (type pdf)
- <use campus_map.pdf>
-Package pdftex.def Info: campus_map.pdf used on input line 1143.
+<use campus_map.pdf>
+Package pdftex.def Info: campus_map.pdf  used on input line 1143.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
  [208] (./Lokalplan.aux) ) 
 Here is how much of TeX's memory you used:
- 2323 strings out of 494287
- 30999 string characters out of 6161799
- 108883 words of memory out of 5000000
- 5642 multiletter control sequences out of 15000+600000
+ 2368 strings out of 494180
+ 31898 string characters out of 6159675
+ 109777 words of memory out of 5000000
+ 5719 multiletter control sequences out of 15000+600000
  5159 words of font info for 19 fonts, out of 8000000 for 9000
- 372 hyphenation exceptions out of 8191
- 37i,9n,23p,3938b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 417 hyphenation exceptions out of 8191
+ 41i,9n,25p,3976b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 
-Output written on Lokalplan.pdf (208 pages, 1112616 bytes).
+Output written on Lokalplan.pdf (208 pages, 1113800 bytes).
 PDF statistics:
  711 PDF objects out of 1000 (max. 8388607)
  483 compressed objects within 5 object streams
